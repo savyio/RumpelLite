@@ -16,23 +16,23 @@
 "error_label" = "Error";
 
 /* logon and register */
-"logon_label" = "Login with HAT";
+"logon_label" = "Login with Savy";
 "logout_label" = "Sign Out";
 "attempting_to_login" = "Checking privileges...";
 
 /* auth errors */
-"auth_error_general" = "Security token could not be processed. Please report the issue in the HAT forums.";
-"auth_error_invalid_token" = "Security token validation failed. Please try logging in again. If the problem persists report the issue in the HAT forums.";
-"auth_error_no_token_in_callback" = "No security token detected. Please report the issue in the HAT forums.";
+"auth_error_general" = "Security token could not be processed. Please email support@savy.io";
+"auth_error_invalid_token" = "Security token validation failed. Please try logging in again. If the problem persists please email support@savy.io";
+"auth_error_no_token_in_callback" = "No security token detected. Please email support@savy.io";
 /* auth keychain */
-"auth_error_keychain_save" = "There was a problem saving the value in the Keychain. Please report the issue in the HAT forums.";
-"auth_error_keychain_get" = "There was a problem getting the value from the Keychain. Please report the issue in the HAT forums.";
+"auth_error_keychain_save" = "There was a problem saving the value in the Keychain. Please email support@savy.io";
+"auth_error_keychain_get" = "There was a problem getting the value from the Keychain. Please email support@savy.io";
 
 /* placeholders */
-"hat_domain_placeholder" = "HAT address";
+"hat_domain_placeholder" = "Savy address";
 
-"login_screen_title" = "RumpelLite";
-"login_screen_subtitle" = "The hyperdata browser for your HAT data";
+"login_screen_title" = "Savy";
+"login_screen_subtitle" = "The hyperdata browser for your Savy data";
 
 /* map */
 "map_label" = "Map";
@@ -63,8 +63,8 @@
 
 /* exception friendly messages */
 "exception_401" = "Submitted HAT domain does not exist. Please check the name for typos and try again.";
-"exception_400" = "Looks like there was a problem communicating with your HAT. Please report the issue in HAT forums.";
-"exception_500" = "HAT encountered some problems. If the problem persists, please report the issue in HAT forums";
+"exception_400" = "Looks like there was a problem communicating with your Savy account. Please email support@savy.io";
+"exception_500" = "Savy encountered some problems. If the problem persists, please email support@savy.io";
 "exception_504" = "Ooops, something went wrong. Please try again in a few moment as this is most likely temporary problem.";
 
 "location_kCLLocationAccuracyKilometer" = "Accurate to the nearest kilometer";

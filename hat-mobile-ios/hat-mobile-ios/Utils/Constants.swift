@@ -655,7 +655,7 @@ internal class Constants {
         static let goDeep: String = "goDeep"
         static let community: String = "Community"
         static let news: String = "News"
-        static let hatLogo: String = "HAT App Logo"
+        static let savyLogo: String = "Savy App Logo"
         static let featured: String = "Featured"
         static let savy: String = "Savy"
         static let shapeInfluence: String = "ShapeInfluence"
@@ -816,7 +816,7 @@ internal class Constants {
     struct HATEndpoints {
         
         static let appRegistrationWithHATURL: String = "https://marketsquare.hubofallthings.com/api/dataplugs/"
-        static let contactUs: String = "contact@hatdex.org"
+        static let contactUs: String = "support@savy.io"
         static let mailingList: String = "http://hatdex.us12.list-manage2.com/subscribe?u=bf49285ca77275f68a5263b83&id=3ca9558266"
         static let purchaseHat: String = "https://hatters.hubofallthings.com/api/products/hat/purchase"
         

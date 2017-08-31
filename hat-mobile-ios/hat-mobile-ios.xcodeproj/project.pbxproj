@@ -995,7 +995,7 @@
 				TargetAttributes = {
 					B564E9641D19717900EDB8F1 = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = 84XHE3A5BA;
+						DevelopmentTeam = 2JAMFVLEDD;
 						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
@@ -1262,7 +1262,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"";
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" 51b396d976afe742b7fed62a45cb10eceee6bd1f fb2d0353131b96f9ff8aeea0be1e6de6dd576cde71b803d684e176638d6eb6af";
 		};
 		6076A5971DEFACA700D83D42 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -1642,14 +1642,14 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = 84XHE3A5BA;
+				DEVELOPMENT_TEAM = 2JAMFVLEDD;
 				ENABLE_BITCODE = YES;
 				GCC_WARN_UNUSED_LABEL = YES;
 				GCC_WARN_UNUSED_PARAMETER = YES;
 				INFOPLIST_FILE = "hat-mobile-ios/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.hubofallthings.rumpellocationtracker;
+				PRODUCT_BUNDLE_IDENTIFIER = io.savy.browser;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1668,14 +1668,14 @@
 				CODE_SIGN_ENTITLEMENTS = "hat-mobile-ios/hat-mobile-ios.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Distribution: HAT Data Exchange Ltd. (84XHE3A5BA)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = 84XHE3A5BA;
+				DEVELOPMENT_TEAM = 2JAMFVLEDD;
 				ENABLE_BITCODE = YES;
 				GCC_WARN_UNUSED_LABEL = YES;
 				GCC_WARN_UNUSED_PARAMETER = YES;
 				INFOPLIST_FILE = "hat-mobile-ios/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.hubofallthings.rumpellocationtracker;
+				PRODUCT_BUNDLE_IDENTIFIER = io.savy.browser;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";

@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
-	<string>HAT</string>
+	<string>Savy</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -13,7 +13,7 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>Rumpel Lite</string>
+	<string>Savy</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
@@ -61,7 +61,7 @@
 	<key>NSCameraUsageDescription</key>
 	<string>Allows you to take a new image and upload it</string>
 	<key>NSLocationAlwaysUsageDescription</key>
-	<string>Push location data into your HAT</string>
+	<string>Push location data into your Savy account</string>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>Allows you to upload your photos</string>
 	<key>UIAppFonts</key>

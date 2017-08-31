@@ -123,7 +123,11 @@ internal class HomeScreenObject: NSObject {
         let hatCommunity = HomeScreenObject(
             name: "HAT",
             description: "What's new",
-            image: UIImage(named: Constants.ImageNames.hatLogo)!)
+            image: UIImage(named: Constants.ImageNames.savyLogo)!)
+        let goodLoop = HomeScreenObject(
+            name: "Featured App",
+            description: "Ads for Good by GoodLoop",
+            image: UIImage(named: Constants.ImageNames.featured)!)
         let ideas = HomeScreenObject(
             name: "Ideas",
             description: "Contribute ideas that will make HAT better",
