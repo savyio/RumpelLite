@@ -35,7 +35,7 @@ internal class PresenterOfShareOptionsViewController: NSObject, UserCredentialsP
             viewController.present(picker, animated: true, completion: nil)
         })
         
-        let selectFromHATAction = UIAlertAction(title: "Choose from HAT", style: .default, handler: { (_) -> Void in
+        let selectFromHATAction = UIAlertAction(title: "Choose from Savy account", style: .default, handler: { (_) -> Void in
             
             viewController.performSegue(withIdentifier: "createNoteToHATPhotosSegue", sender: viewController)
         })

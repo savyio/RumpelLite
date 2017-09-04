@@ -20,11 +20,11 @@ internal class PhataTableViewController: UITableViewController, UserCredentialsP
     // MARK: - Variables
     
     /// The sections of the table view
-    private let sections: [[String]] = [["PHATA"], ["Social Links"], ["Email Address", "Mobile Number", "Locale"], ["Full Name", "Picture"], ["Emergency Contact"], ["Biodata"]]
+    private let sections: [[String]] = [["Savy Page"], ["Social Links"], ["Email Address", "Mobile Number", "Locale"], ["Full Name", "Picture"], ["Emergency Contact"], ["Biodata"]]
     /// The headers of the table view
-    private let headers: [String] = ["PHATA", "Social Links", "Contact Info", "Profile", "Emergency Contact", "Biodata"]
+    private let headers: [String] = ["Savy Page", "Social Links", "Contact Info", "Profile", "Emergency Contact", "Biodata"]
     /// The footers of the table view
-    private let footers: [String] = ["PHATA stands for Personal HAT Address. Your PHATA page is the URL of your public profile, and you can customise exactly which parts of it you want to display, or keep private.", "", "", "", "", ""]
+    private let footers: [String] = ["Savy Page is the URL of your public profile, and you can customise exactly which parts of it you want to display, or keep private.", "", "", "", "", ""]
     
     /// User's profile passed on from previous view controller
     var profile: HATProfileObject?
@@ -34,8 +34,8 @@ internal class PhataTableViewController: UITableViewController, UserCredentialsP
     /// A static let variable pointing to the AuthoriseUserViewController for checking if token is active or not
     private static let authoriseVC: AuthoriseUserViewController = AuthoriseUserViewController()
     
-    var prefferedTitle: String = "PHATA"
-    var prefferedInfoMessage: String = "Your PHATA is your public profile. Enable it to use it as a calling card!"
+    var prefferedTitle: String = "Savy Page"
+    var prefferedInfoMessage: String = "Your Savy Page is your public profile. Enable it to use it as a calling card!"
     
     /// A dark view covering the collection view cell
     private var darkView: UIVisualEffectView?
@@ -150,7 +150,7 @@ internal class PhataTableViewController: UITableViewController, UserCredentialsP
             color: .accentColor,
             cornerRadius: 15,
             in: self.view,
-            with: "Loading HAT data...",
+            with: "Loading Savy data...",
             textColor: .white,
             font: UIFont(name: Constants.FontNames.openSans, size: 12)!)
         

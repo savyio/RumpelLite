@@ -44,7 +44,7 @@ internal class DataStoreFinancialManagementTableViewController: UITableViewContr
             color: .accentColor,
             cornerRadius: 15,
             in: self.view,
-            with: "Saving HAT data...",
+            with: "Saving Savy data...",
             textColor: .white,
             font: UIFont(name: Constants.FontNames.openSans, size: 12)!)
         
@@ -160,7 +160,7 @@ internal class DataStoreFinancialManagementTableViewController: UITableViewContr
         self.tableView.isUserInteractionEnabled = true
         self.loadingView?.removeFromSuperview()
         self.createClassicOKAlertWith(
-            alertMessage: "The was an error saving the data to HAT",
+            alertMessage: "The was an error saving the data to Savy",
             alertTitle: "Error",
             okTitle: "OK",
             proceedCompletion: {})
@@ -200,7 +200,7 @@ internal class DataStoreFinancialManagementTableViewController: UITableViewContr
             color: .accentColor,
             cornerRadius: 15,
             in: self.view,
-            with: "Loading HAT data...",
+            with: "Loading Savy data...",
             textColor: .white,
             font: UIFont(name: Constants.FontNames.openSans, size: 12)!)
         

@@ -58,7 +58,7 @@ internal class HomeViewController: UIViewController, UICollectionViewDataSource,
     @IBAction func showInfoButtonAction(_ sender: Any) {
         
         self.showInfoViewController(
-            text: "Rumpel Lite's Data Services are all the neat things you can do with your HAT data. Pull your data in with Data Plugs, and make it useful to you with Data Services.")
+            text: "Data Services are all the neat things you can do with your Savy data. Pull your data in with Data Plugs, and make it useful to you with Data Services.")
     }
     
     // MARK: - Collection View methods
@@ -137,18 +137,18 @@ internal class HomeViewController: UIViewController, UICollectionViewDataSource,
         
         if self.segueObjectValues.showAlert {
             
-            self.createClassicOKAlertWith(
-                alertMessage: "We are featuring GoodLoop - share your data to watch more relevant ads, all while contributing to a charity of your choice and also back to your HAT!",
-                alertTitle: "Heads Up",
-                okTitle: "OK",
-                proceedCompletion: {
-                    
-                    self.segueObjectValues.specificMerchantForOffers = "goodloop"
-                    self.segueObjectValues.titleToPassOnToTheNextView = "Feature Offers"
-                    self.segueObjectValues.infoPopUpToPassOnToTheNextView = "We are featuring GoodLoop - share your data to watch more relevant ads, all while contributing to a charity of your choice and also back to your HAT!"
-                    self.performSegue(withIdentifier: Constants.Segue.homeToDataOffers, sender: self)
-                }
-            )
+//            self.createClassicOKAlertWith(
+//                alertMessage: "We are featuring GoodLoop - share your data to watch more relevant ads, all while contributing to a charity of your choice and also back to your HAT!",
+//                alertTitle: "Heads Up",
+//                okTitle: "OK",
+//                proceedCompletion: {
+//                    
+//                    self.segueObjectValues.specificMerchantForOffers = "goodloop"
+//                    self.segueObjectValues.titleToPassOnToTheNextView = "Feature Offers"
+//                    self.segueObjectValues.infoPopUpToPassOnToTheNextView = "We are featuring GoodLoop - share your data to watch more relevant ads, all while contributing to a charity of your choice and also back to your HAT!"
+//                    self.performSegue(withIdentifier: Constants.Segue.homeToDataOffers, sender: self)
+//                }
+//            )
         }
         
         if self.segueObjectValues.segueName != "" {

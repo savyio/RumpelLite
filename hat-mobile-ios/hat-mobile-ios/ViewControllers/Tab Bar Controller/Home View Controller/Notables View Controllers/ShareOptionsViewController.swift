@@ -93,7 +93,7 @@ internal class ShareOptionsViewController: UIViewController, UITextViewDelegate,
     /// A string passed from Notables view controller about the kind of the note
     var kind: String = "note"
     var prefferedTitle: String = "Note"
-    var prefferedInfoMessage: String = "Post something on social media (FB or Twitter) or on HATTERS bulletin board. Share for 1/7/14/30 days and it would be deleted when the note expires! Or delete it instantly at the shared location by moving the note to private. Add your location or a photo!"
+    var prefferedInfoMessage: String = "Post something on social media (FB or Twitter). Share for 1/7/14/30 days and it would be deleted when the note expires! Or delete it instantly at the shared location by moving the note to private. Add your location or a photo!"
     
     /// The previous title for publish button
     private var previousPublishButtonTitle: String?
@@ -828,7 +828,7 @@ internal class ShareOptionsViewController: UIViewController, UITextViewDelegate,
         PresenterOfShareOptionsViewController.setUpLabels(publicLabel: self.publicLabel, shareWithLabel: self.shareWithLabel, shareForLabel: self.shareForLabel, publicText: "Shared", color: .black)
         
         // enable social images
-        PresenterOfShareOptionsViewController.areButtonsEnabled(true, buttons: [self.facebookButton, self.twitterButton, self.marketsquareButton])
+        PresenterOfShareOptionsViewController.areButtonsEnabled(true, buttons: [self.facebookButton, self.twitterButton])
         
         // set image fonts
         PresenterOfShareOptionsViewController.setImageLabelsOn(isNotePublicLabel: self.publicImageLabel, shareNoteLabel: self.shareImageLabel, color: .accentColor)
@@ -852,7 +852,7 @@ internal class ShareOptionsViewController: UIViewController, UITextViewDelegate,
         self.shareForLabel.text = "For how long..."
         
         // disable social images
-        PresenterOfShareOptionsViewController.areButtonsEnabled(false, buttons: [self.facebookButton, self.twitterButton, self.marketsquareButton])
+        PresenterOfShareOptionsViewController.areButtonsEnabled(false, buttons: [self.facebookButton, self.twitterButton])
         
         // set image fonts
         PresenterOfShareOptionsViewController.setImageLabelsOn(isNotePublicLabel: self.publicImageLabel, shareNoteLabel: self.shareImageLabel, color: .lightGray)
@@ -874,10 +874,10 @@ internal class ShareOptionsViewController: UIViewController, UITextViewDelegate,
                 self.facebookButton.alpha = 1
             }
             //  enable marketsquare button
-            if socialName == "marketsquare" {
-                
-                self.marketsquareButton.alpha = 1
-            }
+//            if socialName == "marketsquare" {
+//                
+//                self.marketsquareButton.alpha = 1
+//            }
             //  enable marketsquare button
             if socialName == "twitter" {
                 
@@ -895,7 +895,7 @@ internal class ShareOptionsViewController: UIViewController, UITextViewDelegate,
         self.shareOnSocial.removeAll()
         // deselect buttons
         self.facebookButton.alpha = 0.4
-        self.marketsquareButton.alpha = 0.4
+//        self.marketsquareButton.alpha = 0.4
         self.twitterButton.alpha = 0.4
     }
     

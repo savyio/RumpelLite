@@ -313,7 +313,7 @@ internal class DataStoreUKSpecificTableViewController: UITableViewController, Us
             color: .accentColor,
             cornerRadius: 15,
             in: self.view,
-            with: "Loading HAT data...",
+            with: "Loading Savy data...",
             textColor: .white,
             font: UIFont(name: Constants.FontNames.openSans, size: 12)!)
 

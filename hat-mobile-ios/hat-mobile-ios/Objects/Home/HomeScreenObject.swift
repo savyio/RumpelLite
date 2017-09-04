@@ -74,7 +74,7 @@ internal class HomeScreenObject: NSObject {
             image: UIImage(named: Constants.ImageNames.socialFeedImage)!)
         let photoView = HomeScreenObject(
             name: "Photo Viewer",
-            description: "Show the images you have uploaded in your HAT",
+            description: "Show the images you have uploaded in your Savy acount",
             image: UIImage(named: Constants.ImageNames.photoViewerImage)!)
         let socialMediaControl = HomeScreenObject(
             name: "Social Media Control",
@@ -82,7 +82,7 @@ internal class HomeScreenObject: NSObject {
             image: UIImage(named: Constants.ImageNames.socialMediaControl)!)
         let meDigital = HomeScreenObject(
             name: "The calling card",
-            description: "My PHATA public profile",
+            description: "My public profile",
             image: UIImage(named: Constants.ImageNames.callingCard)!)
         let allThatIsMine = HomeScreenObject(
             name: "Total Recall",
@@ -137,6 +137,6 @@ internal class HomeScreenObject: NSObject {
             description: "Community Space",
             image: UIImage(named: Constants.ImageNames.hattersOutline)!)
         
-        return [topSecret, geoMe, myStory, socialMediaControl, meDigital, allThatIsMine, doeet, watcheet, readeet, sso, goDeep, photoView, hatCommunity, madhatters, ideas, hatters]
+        return [topSecret, geoMe, myStory, socialMediaControl, meDigital, allThatIsMine, doeet, watcheet, readeet, sso, photoView]
     }
 }

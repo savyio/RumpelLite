@@ -477,7 +477,7 @@ internal class NotablesViewController: UIViewController, UITableViewDataSource, 
      */
     private func connectToServerToGetNotes(result: String?) {
         
-        self.showEmptyTableLabelWith(message: "Accessing your HAT...")
+        self.showEmptyTableLabelWith(message: "Accessing your account...")
         
         self.fetchNotes()
     }
@@ -645,7 +645,7 @@ internal class NotablesViewController: UIViewController, UITableViewDataSource, 
                     
                 } else if weakSelf.notesArray.isEmpty {
                     
-                    weakSelf.showEmptyTableLabelWith(message: "No notables. Keep your words on your HAT. Create your first notable!")
+                    weakSelf.showEmptyTableLabelWith(message: "No notables. Keep your words in your Savy account. Create your first notable!")
                 }
             }
         }

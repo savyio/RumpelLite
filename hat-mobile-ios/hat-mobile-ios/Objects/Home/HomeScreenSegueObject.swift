@@ -64,12 +64,12 @@ internal struct HomeScreenSegueObject {
             object.segueName = Constants.Segue.photoViewerSegue
         } else if name == "Social Media Control" {
             
-            object.infoPopUpToPassOnToTheNextView = "Post something on social media (FB or Twitter) or on HATTERS bulletin board. Share for 1/7/14/30 days and it would be deleted when the note expires! Or delete it instantly at the shared location by moving the note to private. Add your location or a photo!"
+            object.infoPopUpToPassOnToTheNextView = "Post something on social media (FB or Twitter). Share for 1/7/14/30 days and it would be deleted when the note expires! Or delete it instantly at the shared location by moving the note to private. Add your location or a photo!"
             object.titleToPassOnToTheNextView = "Social Media Control"
             object.segueName = Constants.Segue.homeToEditNoteSegue
         } else if name == "The calling card" {
             
-            object.infoPopUpToPassOnToTheNextView = "Your PHATA is your public profile. Enable it to use it as a calling card!"
+            object.infoPopUpToPassOnToTheNextView = "Your Savy page is your public profile. Enable it to use it as a calling card!"
             object.titleToPassOnToTheNextView = "The calling card"
             object.segueName = Constants.Segue.phataSegue
         } else if name == "Total Recall" {
@@ -79,17 +79,17 @@ internal struct HomeScreenSegueObject {
             object.segueName = Constants.Segue.homeToDataStore
         } else if name == "Gimme" {
             
-            object.infoPopUpToPassOnToTheNextView = "Pull in your data with the HAT data Plugs"
+            object.infoPopUpToPassOnToTheNextView = "Pull in your data with the Savy data Plugs"
             object.segueName = Constants.Segue.homeToDataPlugs
         } else if name == "Watch-eet" {
             
-            object.infoPopUpToPassOnToTheNextView = "Accept an offer to curate personalised entertainment (videos, movies) for your data. Pick the curator who might have the best algorithms to entertain you. Keep your list to watch later! Watch-eet is currently work-in-progress. During this time, HAT owners will see all recommendations, without any matching of data in your HAT."
+            object.infoPopUpToPassOnToTheNextView = "Accept an offer to curate personalised entertainment (videos, movies) for your data. Pick the curator who might have the best algorithms to entertain you. Keep your list to watch later! Watch-eet is currently work-in-progress. During this time, Savy members will see all recommendations, without any matching of data in your account."
             object.titleToPassOnToTheNextView = "Watch-eet"
             object.specificMerchantForOffers = "rumpelwatch"
             object.segueName = Constants.Segue.homeToDataOffers
         } else if name == "Read-eet" {
             
-            object.infoPopUpToPassOnToTheNextView = "Accept an offer to curate personalised news, books and other reading materials, matched with your personal data. Keep your list to read later. Read-eet is currently work-in-progress. During this time, HAT owners see all recommendations, without any matching of data in your HAT."
+            object.infoPopUpToPassOnToTheNextView = "Accept an offer to curate personalised news, books and other reading materials, matched with your personal data. Keep your list to read later. Read-eet is currently work-in-progress. During this time, Savy members see all recommendations, without any matching of data in your account."
             object.titleToPassOnToTheNextView = "Read-eet"
             object.specificMerchantForOffers = "rumpelread"
             object.segueName = Constants.Segue.homeToDataOffers
