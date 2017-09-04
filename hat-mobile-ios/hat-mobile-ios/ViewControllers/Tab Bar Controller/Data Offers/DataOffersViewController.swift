@@ -128,9 +128,6 @@ internal class DataOffersViewController: UIViewController, UICollectionViewDataS
         
         super.viewDidAppear(animated)
         
-        navigationController?.navigationBar.setBackgroundImage(UIImage(named: Constants.ImageNames.tealImage), for: .any, barMetrics: .default)
-        navigationController?.navigationBar.shadowImage = UIImage()
-        navigationController?.navigationBar.isTranslucent = false
     }
     
     override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
@@ -253,7 +250,7 @@ internal class DataOffersViewController: UIViewController, UICollectionViewDataS
         // create loading pop up screen
         self.loadingView = UIView.createLoadingView(
             with: CGRect(x: self.view.frame.midX - 70, y: self.view.bounds.midY - 15, width: 140, height: 30),
-            color: .teal,
+            color: .accentColor,
             cornerRadius: 15,
             in: self.view,
             with: "Getting data offers...",
@@ -596,7 +593,7 @@ internal class DataOffersViewController: UIViewController, UICollectionViewDataS
                 y: self.collectionView.frame.maxY,
                 width: self.view.frame.width - 30,
                 height: calculatedHeight),
-            color: .teal,
+            color: .accentColor,
             cornerRadius: 15)
         
         DispatchQueue.main.async { [weak self] () -> Void in

@@ -105,7 +105,7 @@ internal class GetAHATViewController: UIViewController, UICollectionViewDataSour
         self.arrowBarImage.image = self.arrowBarImage.image!.withRenderingMode(.alwaysTemplate)
         self.arrowBarImage.tintColor = .rumpelDarkGray
         
-        self.learnMoreButton.addBorderToButton(width: 1, color: .teal)
+        self.learnMoreButton.addBorderToButton(width: 1, color: .accentColor)
         
         // add notification observers
         NotificationCenter.default.addObserver(

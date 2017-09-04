@@ -127,7 +127,7 @@ internal class DataPlugsCollectionViewController: UICollectionViewController, UI
         // create loading pop up screen
         self.loadingView = UIView.createLoadingView(
             with: CGRect(x: (self.collectionView?.frame.midX)! - 70, y: (self.collectionView?.frame.midY)! - 15, width: 140, height: 30),
-            color: .teal,
+            color: .accentColor,
             cornerRadius: 15,
             in: self.view,
             with: "Getting data plugs...",
@@ -332,7 +332,7 @@ internal class DataPlugsCollectionViewController: UICollectionViewController, UI
                 y: (self.collectionView?.frame.maxY)!,
                 width: self.view.frame.width - 30,
                 height: self.view.frame.height),
-            color: .teal,
+            color: .accentColor,
             cornerRadius: 15)
         
         DispatchQueue.main.async { [weak self] () -> Void in

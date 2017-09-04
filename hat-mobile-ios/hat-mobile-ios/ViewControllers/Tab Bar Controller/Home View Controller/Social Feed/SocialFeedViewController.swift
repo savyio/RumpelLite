@@ -256,18 +256,18 @@ internal class SocialFeedViewController: UIViewController, UICollectionViewDataS
             style: .done,
             target: self,
             action: #selector(self.donePickerButton(sender:)))
-        doneButton.setTitleTextAttributes([NSForegroundColorAttributeName: UIColor.teal], for: .normal)
+        doneButton.setTitleTextAttributes([NSForegroundColorAttributeName: UIColor.accentColor], for: .normal)
         
         let spaceButton = UIBarButtonItem(
             barButtonSystemItem: UIBarButtonSystemItem.flexibleSpace,
             target: nil,
             action: nil)
-        spaceButton.setTitleTextAttributes([NSForegroundColorAttributeName: UIColor.teal], for: .normal)
+        spaceButton.setTitleTextAttributes([NSForegroundColorAttributeName: UIColor.accentColor], for: .normal)
         
-        self.segmentControl.setTitleTextAttributes([NSForegroundColorAttributeName: UIColor.teal], for: .normal)
+        self.segmentControl.setTitleTextAttributes([NSForegroundColorAttributeName: UIColor.accentColor], for: .normal)
         self.segmentControl.selectedSegmentIndex = 0
         self.segmentControl.addTarget(self, action: #selector(segmentedControlDidChange(sender:)), for: UIControlEvents.valueChanged)
-        self.segmentControl.tintColor = .teal
+        self.segmentControl.tintColor = .accentColor
         
         let barButtonSegmentedControll = UIBarButtonItem(customView: segmentControl)
         
@@ -275,14 +275,14 @@ internal class SocialFeedViewController: UIViewController, UICollectionViewDataS
             barButtonSystemItem: UIBarButtonSystemItem.flexibleSpace,
             target: nil,
             action: nil)
-        spaceButton2.setTitleTextAttributes([NSForegroundColorAttributeName: UIColor.teal], for: .normal)
+        spaceButton2.setTitleTextAttributes([NSForegroundColorAttributeName: UIColor.accentColor], for: .normal)
         
         let cancelButton = UIBarButtonItem(
             title: "Cancel",
             style: .done,
             target: self,
             action: #selector(self.cancelPickerButton(sender:)))
-        cancelButton.setTitleTextAttributes([NSForegroundColorAttributeName: UIColor.teal], for: .normal)
+        cancelButton.setTitleTextAttributes([NSForegroundColorAttributeName: UIColor.accentColor], for: .normal)
         
         let toolBar = UIToolbar()
         toolBar.barStyle = UIBarStyle.default
@@ -1256,7 +1256,7 @@ internal class SocialFeedViewController: UIViewController, UICollectionViewDataS
                 y: self.collectionView.frame.maxY,
                 width: self.view.frame.width - 30,
                 height: self.view.frame.height),
-            color: .teal,
+            color: .accentColor,
             cornerRadius: 15)
         
         DispatchQueue.main.async { [weak self] () -> Void in

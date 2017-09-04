@@ -62,7 +62,7 @@ internal class PageViewController: UIViewController {
                     y: self.view.frame.maxY,
                     width: self.view.frame.width - 30,
                     height: self.view.frame.height - 30),
-                color: .teal,
+                color: .accentColor,
                 cornerRadius: 15)
             AnimationHelper.animateView(
                 pageItemController.view,
@@ -94,7 +94,7 @@ internal class PageViewController: UIViewController {
         var pageObject: LearnMoreObject = LearnMoreObject()
         
         // change the color of the pagination dots at the bottom of the screen
-        self.pageViewController?.changePaginationColors(pageTintColor: .white, pageCurrentTintColor: .teal)
+        self.pageViewController?.changePaginationColors(pageTintColor: .white, pageCurrentTintColor: .accentColor)
         
         // check if we are out of bounds
         if itemIndex >= 0 && itemIndex <= 6 {
@@ -111,8 +111,8 @@ internal class PageViewController: UIViewController {
                 strokeColor: .white,
                 font: UIFont(name: Constants.FontNames.openSansCondensedLight, size: 36)!)
             let partTwo = "hub of all things".createTextAttributes(
-                foregroundColor: .teal,
-                strokeColor: .teal,
+                foregroundColor: .accentColor,
+                strokeColor: .accentColor,
                 font: UIFont(name: Constants.FontNames.openSans, size: 36)!)
             
             mainLabel.attributedText = partOne.combineWith(attributedText: partTwo)

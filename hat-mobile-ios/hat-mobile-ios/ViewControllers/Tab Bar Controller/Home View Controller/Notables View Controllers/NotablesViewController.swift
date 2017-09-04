@@ -147,7 +147,7 @@ internal class NotablesViewController: UIViewController, UITableViewDataSource, 
                 y: self.tableView.frame.maxY,
                 width: self.view.frame.width - 30,
                 height: calculatedHeight),
-            color: .teal,
+            color: .accentColor,
             cornerRadius: 15)
         
         DispatchQueue.main.async { [weak self] () -> Void in

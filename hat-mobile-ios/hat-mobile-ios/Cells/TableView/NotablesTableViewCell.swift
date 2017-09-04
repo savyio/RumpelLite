@@ -136,7 +136,7 @@ internal class NotablesTableViewCell: UITableViewCell, UICollectionViewDataSourc
         // create this zebra like color based on the index of the cell
         if indexPath.row % 2 == 1 {
             
-            newCell.contentView.backgroundColor = .rumpelLightGray
+            newCell.contentView.backgroundColor = .primaryColor
         }
         
         // show the data in the cell's labels
@@ -252,7 +252,7 @@ internal class NotablesTableViewCell: UITableViewCell, UICollectionViewDataSourc
         
         cell.collectionView.reloadData()
         
-        cell.contentView.backgroundColor = .rumpelDarkGray
+        cell.contentView.backgroundColor = .primaryDarkColor
 
         return cell
     }
@@ -289,8 +289,8 @@ internal class NotablesTableViewCell: UITableViewCell, UICollectionViewDataSourc
         
         let partOne = NSAttributedString(string: string)
         let partTwo = shareString.createTextAttributes(
-            foregroundColor: .teal,
-            strokeColor: .teal,
+            foregroundColor: .accentColor,
+            strokeColor: .accentColor,
             font: UIFont(name: Constants.FontNames.openSans, size: 11)!)
         
         return partOne.combineWith(attributedText: partTwo)

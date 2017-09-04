@@ -79,7 +79,7 @@ internal class DataStoreTableViewController: UITableViewController, UserCredenti
         
         self.loadingView = UIView.createLoadingView(
             with: CGRect(x: (self.view?.frame.midX)! - 70, y: (self.view?.frame.midY)! - 15, width: 140, height: 30),
-            color: .teal,
+            color: .accentColor,
             cornerRadius: 15,
             in: self.view,
             with: "Loading HAT data...",
@@ -299,7 +299,7 @@ internal class DataStoreTableViewController: UITableViewController, UserCredenti
                 y: self.tableView.frame.maxY,
                 width: self.view.frame.width - 30,
                 height: calculatedHeight),
-            color: .teal,
+            color: .accentColor,
             cornerRadius: 15)
         
         DispatchQueue.main.async { [weak self] () -> Void in

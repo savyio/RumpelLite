@@ -98,7 +98,7 @@ internal class DataStoreForDataOffersTableViewController: UITableViewController,
                 y: self.tableView.frame.maxY,
                 width: self.view.frame.width - 30,
                 height: self.view.frame.height),
-            color: .teal,
+            color: .accentColor,
             cornerRadius: 15)
         
         DispatchQueue.main.async { [weak self] () -> Void in
@@ -362,7 +362,7 @@ internal class DataStoreForDataOffersTableViewController: UITableViewController,
         self.tableView.isUserInteractionEnabled = false
         self.loadingView = UIView.createLoadingView(
             with: CGRect(x: (self.tableView?.frame.midX)! - 70, y: (self.tableView?.frame.midY)! - 15, width: 160, height: 30),
-            color: .teal,
+            color: .accentColor,
             cornerRadius: 15,
             in: self.view,
             with: "Loading HAT data...",

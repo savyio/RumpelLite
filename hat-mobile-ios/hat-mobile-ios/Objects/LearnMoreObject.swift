@@ -153,8 +153,8 @@ internal class LearnMoreObject {
         if pageIndex == 0 {
             
             let partOne = learnMoreObject.title.createTextAttributes(
-                foregroundColor: .teal,
-                strokeColor: .teal,
+                foregroundColor: .accentColor,
+                strokeColor: .accentColor,
                 font: UIFont(name: Constants.FontNames.openSansCondensedLight, size: 30)!)
             let partTwo = learnMoreObject.info.createTextAttributes(
                 foregroundColor: .darkGray,
@@ -165,8 +165,8 @@ internal class LearnMoreObject {
         } else if pageIndex == 1 {
             
             let partOne = learnMoreObject.title.createTextAttributes(
-                foregroundColor: .teal,
-                strokeColor: .teal,
+                foregroundColor: .accentColor,
+                strokeColor: .accentColor,
                 font: UIFont(name: Constants.FontNames.openSansCondensedLight, size: 30)!)
             let partTwo = learnMoreObject.info.createTextAttributes(
                 foregroundColor: .darkGray,
@@ -177,8 +177,8 @@ internal class LearnMoreObject {
         } else if pageIndex == 2 {
             
             let partOne = learnMoreObject.title.createTextAttributes(
-                foregroundColor: .teal,
-                strokeColor: .teal,
+                foregroundColor: .accentColor,
+                strokeColor: .accentColor,
                 font: UIFont(name: Constants.FontNames.openSans, size: 16)!)
             let partTwo = learnMoreObject.info.createTextAttributes(
                 foregroundColor: .darkGray,

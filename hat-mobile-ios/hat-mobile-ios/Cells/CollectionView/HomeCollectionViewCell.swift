@@ -72,31 +72,31 @@ internal class HomeCollectionViewCell: UICollectionViewCell {
                 // create this zebra like color based on the index of the cell
                 if indexPath.row % 4 == 0 {
                     
-                    return .rumpelDarkGray
+                    return .primaryColor
                 } else if indexPath.row % 4 == 3 {
                     
-                    return .rumpelLighterDarkGray
+                    return .tertaryColor
                 } else if indexPath.row % 4 == 2 {
                     
-                    return .tealLight
+                    return .secondaryColor
                 }
                 
-                return .tealDark
+                return .primaryDarkColor
             } else {
                 
                 // create this zebra like color based on the index of the cell
                 if indexPath.row % 6 == 0 {
                     
-                    return .rumpelDarkGray
+                    return .primaryColor
                 } else if indexPath.row % 6 == 3 {
                     
-                    return .tealLight
+                    return .secondaryColor
                 } else if indexPath.row % 6 == 2 || indexPath.row % 6 == 4 {
                     
-                    return .rumpelLighterDarkGray
+                    return .tertaryColor
                 }
                 
-                return .teal
+                return .primaryDarkColor
             }
         } else {
             
@@ -106,31 +106,31 @@ internal class HomeCollectionViewCell: UICollectionViewCell {
                 // create this zebra like color based on the index of the cell
                 if indexPath.row % 5 == 0 {
                     
-                    return .rumpelDarkGray
+                    return .primaryColor
                 } else if indexPath.row % 5 == 2 || indexPath.row % 5 == 4 {
                     
-                    return .rumpelLighterDarkGray
+                    return .tertaryColor
                 } else if indexPath.row % 5 == 1 {
                     
-                    return .tealLight
+                    return .secondaryColor
                 }
                 
-                return .tealDark
+                return .primaryDarkColor
             } else {
                 
                 // create this zebra like color based on the index of the cell
                 if (indexPath.row + indexPath.row / 6) % 6 == 0 {
                     
-                    return .rumpelDarkGray
+                    return .primaryColor
                 } else if (indexPath.row + indexPath.row / 6) % 6 == 3 {
                     
-                    return .tealLight
+                    return .secondaryColor
                 } else if (indexPath.row + indexPath.row / 6) % 6 == 2 || (indexPath.row + indexPath.row / 6) % 6 == 4 {
                     
-                    return .rumpelLighterDarkGray
+                    return .tertaryColor
                 }
                 
-                return .teal
+                return .primaryDarkColor
             }
         }
     }

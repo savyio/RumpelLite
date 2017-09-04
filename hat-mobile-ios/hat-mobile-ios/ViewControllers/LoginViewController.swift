@@ -282,7 +282,7 @@ internal class LoginViewController: UIViewController, UITextFieldDelegate {
                 y: self.view.frame.midY - 15,
                 width: 120,
                 height: 30),
-            color: .teal,
+            color: .accentColor,
             cornerRadius: 15)
         
         let label = UILabel().createLabel(

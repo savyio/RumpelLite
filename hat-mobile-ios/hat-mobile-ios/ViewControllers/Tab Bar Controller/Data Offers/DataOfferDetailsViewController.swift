@@ -144,7 +144,7 @@ internal class DataOfferDetailsViewController: UIViewController, UserCredentials
             // create loading pop up screen
             self.loadingView = UIView.createLoadingView(
                 with: CGRect(x: self.view.frame.midX - 70, y: self.view.bounds.midY - 15, width: 140, height: 30),
-                color: .teal,
+                color: .accentColor,
                 cornerRadius: 15,
                 in: self.view,
                 with: "Accepting offer...",
@@ -377,7 +377,7 @@ internal class DataOfferDetailsViewController: UIViewController, UserCredentials
                 y: self.view.frame.maxY,
                 width: self.view.frame.width - 30,
                 height: self.view.frame.height),
-            color: .teal,
+            color: .accentColor,
             cornerRadius: 15)
         
         DispatchQueue.main.async { [weak self] () -> Void in

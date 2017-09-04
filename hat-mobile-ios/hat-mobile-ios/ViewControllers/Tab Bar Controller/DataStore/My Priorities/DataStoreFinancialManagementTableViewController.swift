@@ -41,7 +41,7 @@ internal class DataStoreFinancialManagementTableViewController: UITableViewContr
         self.tableView.isUserInteractionEnabled = false
         self.loadingView = UIView.createLoadingView(
             with: CGRect(x: (self.tableView?.frame.midX)! - 70, y: (self.tableView?.frame.midY)! - 15, width: 160, height: 30),
-            color: .teal,
+            color: .accentColor,
             cornerRadius: 15,
             in: self.view,
             with: "Saving HAT data...",
@@ -197,7 +197,7 @@ internal class DataStoreFinancialManagementTableViewController: UITableViewContr
         self.tableView.isUserInteractionEnabled = false
         self.loadingView = UIView.createLoadingView(
             with: CGRect(x: (self.tableView?.frame.midX)! - 70, y: (self.tableView?.frame.midY)! - 15, width: 160, height: 30),
-            color: .teal,
+            color: .accentColor,
             cornerRadius: 15,
             in: self.view,
             with: "Loading HAT data...",

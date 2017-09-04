@@ -147,7 +147,7 @@ internal class PhataTableViewController: UITableViewController, UserCredentialsP
         self.tableView.isUserInteractionEnabled = false
         self.loadingView = UIView.createLoadingView(
             with: CGRect(x: (self.tableView?.frame.midX)! - 70, y: (self.tableView?.frame.midY)! - 15, width: 160, height: 30),
-            color: .teal,
+            color: .accentColor,
             cornerRadius: 15,
             in: self.view,
             with: "Loading HAT data...",
@@ -328,7 +328,7 @@ internal class PhataTableViewController: UITableViewController, UserCredentialsP
                 y: self.tableView.frame.maxY,
                 width: self.view.frame.width - 30,
                 height: calculatedHeight),
-            color: .teal,
+            color: .accentColor,
             cornerRadius: 15)
         
         DispatchQueue.main.async { [weak self] () -> Void in

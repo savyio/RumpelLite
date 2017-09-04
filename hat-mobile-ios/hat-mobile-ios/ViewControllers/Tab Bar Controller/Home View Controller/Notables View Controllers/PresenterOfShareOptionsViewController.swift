@@ -404,7 +404,7 @@ internal class PresenterOfShareOptionsViewController: NSObject, UserCredentialsP
         
         loadingScr = LoadingScreenWithProgressRingViewController.customInit(completion: 0, from: viewController.storyboard!)
         
-        loadingScr!.view.createFloatingView(frame:CGRect(x: viewController.view.frame.midX - 75, y: viewController.view.frame.midY - 160, width: 150, height: 160), color: .teal, cornerRadius: 15)
+        loadingScr!.view.createFloatingView(frame:CGRect(x: viewController.view.frame.midX - 75, y: viewController.view.frame.midY - 160, width: 150, height: 160), color: .accentColor, cornerRadius: 15)
         
         viewController.addViewController(loadingScr!)
     }

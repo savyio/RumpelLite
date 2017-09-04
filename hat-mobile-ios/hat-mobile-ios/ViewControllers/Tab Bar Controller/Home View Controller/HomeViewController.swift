@@ -244,7 +244,7 @@ internal class HomeViewController: UIViewController, UICollectionViewDataSource,
                         y: self.view.frame.origin.x + 15,
                         width: self.view.frame.width - 30,
                         height: self.view.frame.height - 30),
-                color: .teal,
+                color: .accentColor,
                 cornerRadius: 15)
             
             // add the page view controller to self
@@ -271,7 +271,7 @@ internal class HomeViewController: UIViewController, UICollectionViewDataSource,
                 y: self.view.frame.maxY,
                 width: self.view.frame.width - 30,
                 height: self.view.frame.height),
-            color: .teal,
+            color: .accentColor,
             cornerRadius: 15)
         
         DispatchQueue.main.async { [weak self] () -> Void in

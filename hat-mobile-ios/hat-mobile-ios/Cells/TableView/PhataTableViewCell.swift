@@ -361,7 +361,7 @@ internal class PhataTableViewCell: UITableViewCell, UITextFieldDelegate, UITextV
     func enableLink(string: String) {
         
         self.textView.text = string
-        self.textView.textColor = .teal
+        self.textView.textColor = .accentColor
     }
     
     // MARK: - Get countries

@@ -29,7 +29,7 @@ internal class TabBarViewController: UITabBarController {
         self.navigationItem.hidesBackButton = true
         
         // change tint color, the color of the selected icon in tab bar
-        self.tabBar.tintColor = .teal
+        self.tabBar.tintColor = .accentColor
         
         // change navigation bar title
         self.navigationController?.navigationBar.titleTextAttributes =

@@ -31,7 +31,7 @@
                                 </constraints>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="0.0" green="0.58628696199999997" blue="0.53447610140000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.066666666666666666" green="0.094117647058823528" blue="0.14509803921568626" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="bXu-Ia-pYx" secondAttribute="trailing" id="3fo-4q-ucS"/>
                             <constraint firstItem="hQE-uI-a3z" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="PJS-7p-v4k"/>
@@ -48,7 +48,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Background-Land" width="570" height="325"/>
+        <image name="Background-Land" width="1711" height="975"/>
         <image name="Savy App Logo" width="113" height="43"/>
     </resources>
 </document>

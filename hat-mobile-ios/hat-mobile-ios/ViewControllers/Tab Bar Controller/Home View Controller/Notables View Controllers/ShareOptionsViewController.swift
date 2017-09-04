@@ -831,7 +831,7 @@ internal class ShareOptionsViewController: UIViewController, UITextViewDelegate,
         PresenterOfShareOptionsViewController.areButtonsEnabled(true, buttons: [self.facebookButton, self.twitterButton, self.marketsquareButton])
         
         // set image fonts
-        PresenterOfShareOptionsViewController.setImageLabelsOn(isNotePublicLabel: self.publicImageLabel, shareNoteLabel: self.shareImageLabel, color: .teal)
+        PresenterOfShareOptionsViewController.setImageLabelsOn(isNotePublicLabel: self.publicImageLabel, shareNoteLabel: self.shareImageLabel, color: .accentColor)
         
         PresenterOfShareOptionsViewController.setTitleOnPublishButtonBasedOn(isShared: self.isEditingExistingNote, button: self.publishButton)
     }
@@ -1090,7 +1090,7 @@ internal class ShareOptionsViewController: UIViewController, UITextViewDelegate,
                 y: self.view.frame.maxY,
                 width: self.view.frame.width - 30,
                 height: calculatedHeight),
-            color: .teal,
+            color: .accentColor,
             cornerRadius: 15)
         
         DispatchQueue.main.async { [weak self] () -> Void in

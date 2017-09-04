@@ -143,7 +143,7 @@ internal class DataStoreEmploymentStatusTableViewController: UITableViewControll
         
         self.loadingView = UIView.createLoadingView(
             with: CGRect(x: (self.view?.frame.midX)! - 70, y: (self.view?.frame.midY)! - 15, width: 140, height: 30),
-            color: .teal,
+            color: .accentColor,
             cornerRadius: 15,
             in: self.view,
             with: "Updating profile...",
@@ -175,7 +175,7 @@ internal class DataStoreEmploymentStatusTableViewController: UITableViewControll
         
         self.loadingView = UIView.createLoadingView(
             with: CGRect(x: (self.view?.frame.midX)! - 70, y: (self.view?.frame.midY)! - 15, width: 140, height: 30),
-            color: .teal,
+            color: .accentColor,
             cornerRadius: 15,
             in: self.view,
             with: "Getting profile...",
