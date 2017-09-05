@@ -32,7 +32,7 @@ internal class DataPlugsCollectionViewController: UICollectionViewController, UI
     private var selectedlPlug: String = ""
     private var plugURL: String = ""
     var prefferedTitle: String = "Data Plugs"
-    var prefferedInfoMessage: String = "Pull in your data with the HAT data Plugs"
+    var prefferedInfoMessage: String = "Pull in your data with data Plugs"
 
     /// A view to show that app is loading, fetching data plugs
     private var loadingView: UIView = UIView()

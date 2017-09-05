@@ -600,7 +600,7 @@ internal class ShareOptionsViewController: UIViewController, UITextViewDelegate,
         let failCallBack = { [weak self] () -> Void in
             
             self?.createClassicOKAlertWith(
-                alertMessage: "There was an error enabling data plugs, please go to web rumpel to enable the data plugs",
+                alertMessage: "There was an error enabling data plugs, please go to your web dashboard to enable the data plugs",
                 alertTitle: "Data Plug Error",
                 okTitle: "OK",
                 proceedCompletion: {})
