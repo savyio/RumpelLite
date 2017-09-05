@@ -189,9 +189,13 @@ internal class DataOffersViewController: UIViewController, UICollectionViewDataS
                         
                         var filteredOffers: [DataOfferObject] = []
                         
-                        for offer in dataOffers where offer.merchantCode == "databuyerpublic" {
+                        for offer in dataOffers where offer.merchantCode == "databuyerpublic" || offer.merchantCode == "savyprivate" {
                             
-                            filteredOffers.append(offer)
+                            if offer.merchantCode == "savyprivate" && offer.dataOfferID != "021741a4-d389-448c-b076-345791256add" { // hide offer while delete function in databuyer isn't created yet
+                                filteredOffers.insert(offer, at: 0)
+                            } else {
+                                filteredOffers.append(offer)
+                            }
                         }
                         
                         self.showOffers(filteredOffers)
@@ -214,10 +218,13 @@ internal class DataOffersViewController: UIViewController, UICollectionViewDataS
                 self.appToken = appToken
 
                 if specificMerchant == "" {
+                    var savyMerchants = merchants
+                    savyMerchants.append("savyprivate")
+                    savyMerchants.append("databuyerpublic")
                     
                     HATDataOffersService.getAvailableDataOffers(
                         applicationToken: appToken,
-                        merchants: merchants,
+                        merchants: savyMerchants,
                         succesfulCallBack: fetchedOffers,
                         failCallBack: failedToFetchOffers)
                 } else {
