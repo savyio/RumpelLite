@@ -538,7 +538,7 @@ internal class DataOffersViewController: UIViewController, UICollectionViewDataS
         if result != "true" {
             
             self.createClassicOKAlertWith(
-                alertMessage: "We are beta testing data offers from databuyers at databuyer.hubat.net. These offers are not real ones but its fun to test - do give us feedback at contact@hatdex.org",
+                alertMessage: "We are beta testing data offers from databuyers at databuyer.hubat.net. These offers are not real ones but its fun to test - do give us feedback at contact@savy.io",
                 alertTitle: "Heads Up!",
                 okTitle: "Got it!",
                 proceedCompletion: continueOnOffer)

@@ -41,7 +41,7 @@ internal class LearnMorePHATAViewController: UIViewController {
         super.viewDidLoad()
         
         // set the desired text
-        self.details.text = "PHATA is your personal HAT address (e.g. YourHATname.hubofallthings.net). It is similar to a PO Box or a nickname for your HAT server. \n\n It is what you use to sign in on to HAT-ready services on the internet. You can set up your PHATA page and it can then be your personal home page on the Internet. Customise what information you wish to share on your PHATA page here. "
+        self.details.text = "Your Savy address is your username (e.g. yourname.savy.io). It is similar to a PO Box or a nickname for your Savy. \n\n It is what you use to sign in on to Savy-ready services on the internet. You can set up your Savy page and it can then be your personal home page on the Internet. Customise what information you wish to share on your Savy page here. "
     }
 
     override func didReceiveMemoryWarning() {

@@ -252,10 +252,10 @@ internal class StripeViewController: UIViewController, UIPickerViewDelegate, UIP
         // add a target if user is editing the text field
         personalHATAddressTextField.addTarget(self, action: #selector(textFieldDidChange), for: .editingChanged)
 
-        // check domain if empty or ., if it is then default to .hubofallthings.net
+        // check domain if empty or ., if it is then default to .savy.io
         if self.domain == "" || self.domain == "." {
             
-            self.domain = ".hubofallthings.net"
+            self.domain = ".savy.io"
         }
     }
     

@@ -141,7 +141,7 @@ internal class LoginViewController: UIViewController, UITextFieldDelegate {
         func failed(error: String) {
             
             self.createClassicOKAlertWith(
-                alertMessage: "Please check your personal hat address again",
+                alertMessage: "Please check your personal Savy address again",
                 alertTitle: "Wrong domain!",
                 okTitle: "OK",
                 proceedCompletion: {})
@@ -155,8 +155,8 @@ internal class LoginViewController: UIViewController, UITextFieldDelegate {
         } else {
             
             self.createClassicOKAlertWith(
-                alertMessage: "Please input your HAT domain",
-                alertTitle: "HAT domain is empty!",
+                alertMessage: "Please input your Savy domain",
+                alertTitle: "Savy domain is empty!",
                 okTitle: "OK",
                 proceedCompletion: {})
         }
@@ -200,7 +200,7 @@ internal class LoginViewController: UIViewController, UITextFieldDelegate {
         self.inputUserHATDomain.layer.sublayerTransform = CATransform3DMakeTranslation(5, 0, 0)
         
         // set placeholder at textfield
-        self.inputUserHATDomain.placeholder = NSLocalizedString("hat_domain_placeholder", comment:  "user HAT domain")
+        self.inputUserHATDomain.placeholder = NSLocalizedString("hat_domain_placeholder", comment:  "user Savy domain")
     }
     
     /**

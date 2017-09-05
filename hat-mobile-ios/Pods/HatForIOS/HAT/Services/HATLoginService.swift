@@ -75,7 +75,7 @@ public struct HATLoginService {
         } else {
 
             // domain is incorrect
-            let message = NSLocalizedString("The domain you entered is incorrect. Accepted domains are 'hubofallthings.net, warwickhat.net and hubat.net. Please correct any typos and try again", comment: "")
+            let message = NSLocalizedString("The domain you entered is incorrect. Accepted domains are 'savy.io, hubofallthings.net, and hubat.net. Please correct any typos and try again", comment: "")
             failedVerification(message)
         }
     }
