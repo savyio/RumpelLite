@@ -255,16 +255,14 @@ internal class DataOfferDetailsViewController: UIViewController, UserCredentials
         if self.receivedOffer?.reward.rewardType != "cash" && (self.receivedOffer?.claim.claimStatus == "completed" || self.receivedOffer?.claim.claimStatus == "redeemed") {
             
             self.acceptOfferButton.setTitle("Show reward", for: .normal)
-            self.acceptOfferButton.addBorderToButton(width: 1, color: .white)
         } else if self.receivedOffer?.claim.claimStatus != "" {
             
             self.acceptOfferButton.setTitle("Offer has been accepted", for: .normal)
             self.acceptOfferButton.isEnabled = false
             self.acceptOfferButton.alpha = 0.8
-        } else {
-            
-            self.acceptOfferButton.addBorderToButton(width: 1, color: .white)
         }
+        self.acceptOfferButton.setTitleColor(.white, for: .highlighted)
+        self.acceptOfferButton.setBackgroundColor(color: .accentColor, forState: .highlighted)
     }
     
     /**

@@ -229,8 +229,8 @@ internal class NotablesViewController: UIViewController, UITableViewDataSource, 
             selector: #selector(hidePopUp),
             name: NSNotification.Name(Constants.NotificationNames.hideDataServicesInfo),
             object: nil)
-                
-        self.createNewNoteButton.addBorderToButton(width: 0.5, color: .white)
+        
+        self.createNewNoteButton.setBackgroundColor(color: .accentColor, forState: .highlighted)
     }
     
     override func viewWillAppear(_ animated: Bool) {

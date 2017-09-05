@@ -97,7 +97,7 @@ internal class PhotoViewerViewController: UIViewController, UICollectionViewData
         super.viewDidLoad()
 
         photoPicker.delegate = self
-        self.addPictureButtonOutlet.addBorderToButton(width: 1, color: .white)
+        self.addPictureButtonOutlet.setBackgroundColor(color: .accentColor, forState: .highlighted)
         
         self.collectionView.allowsMultipleSelection = self.allowsMultipleSelection
         
