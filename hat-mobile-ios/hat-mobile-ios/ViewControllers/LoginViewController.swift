@@ -210,11 +210,14 @@ internal class LoginViewController: UIViewController, UITextFieldDelegate {
         
         // button
         self.buttonLogon.setTitle(NSLocalizedString("logon_label", comment:  "username"), for: UIControlState())
-        self.buttonLogon.backgroundColor = .appBase
+        self.buttonLogon.layer.cornerRadius = 16
         
         self.joinCommunityButton.addBorderToButton(width: 1, color: .white)
+        self.joinCommunityButton.layer.cornerRadius = 16
         self.getAHATButton.addBorderToButton(width: 1, color: .white)
+        self.getAHATButton.layer.cornerRadius = 16
         self.learnMoreButton.addBorderToButton(width: 1, color: .white)
+        self.learnMoreButton.layer.cornerRadius = 16
     }
     
     /**
