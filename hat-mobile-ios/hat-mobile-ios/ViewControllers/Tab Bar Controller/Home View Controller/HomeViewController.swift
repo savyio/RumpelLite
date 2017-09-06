@@ -212,8 +212,8 @@ internal class HomeViewController: UIViewController, UICollectionViewDataSource,
         let result = KeychainHelper.getKeychainValue(key: Constants.Keychain.newUser)
         
         if result != Constants.Keychain.Values.setTrue {
-            
-            self.showInfoViewController( text: "")
+        
+//            self.showInfoViewController( text: "")
             KeychainHelper.setKeychainValue(key: Constants.Keychain.newUser, value: Constants.Keychain.Values.setTrue)
         }
     }
